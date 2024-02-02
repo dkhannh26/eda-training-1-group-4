@@ -1,0 +1,62 @@
+.width-100 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.width-50 {
+    width: 50vw;
+    height: 100vh;
+}
+
+.bg-top {
+    background-image: url('../images/bg-green.png');
+    top: 0;
+    height: 16vh;
+}
+
+.bg-top-second {
+    background-image: url('../images/bg-green.png');
+    top: 20vh;
+    height: 0.1vh;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-title-top {
+    top: 30%;
+    font-size: 3.2vw;
+}
+
+.main-title-bottom {
+    margin-left: 9vw;
+    top: 54vh;
+    font-size: 1.6vw;
+    font-weight: 200;
+}
+
+.right {
+    right: 0;
+    bottom: 0;
+}
+
+.right .product {
+    top: 24vh;
+    background-image: url('../images/Product.png');
+    z-index: 1;
+}
+
+.right .product-shadow {
+    top: 30%;
+    transform: translateX(10px);
+    background-image: url('../images/product-shadow.png');
+    z-index: 0;
+
+}
+
+.content :not(.bg-top):not(.bg-top-second) {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.show :not(.bg-top):not(.bg-top-second){
+    opacity: 1;
+}

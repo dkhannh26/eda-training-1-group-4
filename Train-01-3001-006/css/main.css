@@ -1,0 +1,70 @@
+.border-radius-10{
+    border-radius: 10%;
+    box-shadow: 0 0 10px;
+}
+
+.bg-map {
+    background: url(../images/tilte-txt-img.png) no-repeat ;
+    background-size: 15vw auto;
+    width: 12vw;
+    height: 6vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    opacity: 0;
+}
+
+.bg-map.show {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.normal-txt {
+    line-height: 5.5vh;
+}
+
+.slide-map {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-map {
+    opacity: 0;
+}
+
+.img-map.show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.bg-size {
+    margin: 5vh auto;
+    width: 12vw;
+    height: 12vh;
+}
+
+.bg-slide1 {
+    background: url(../images/Slide-map/slide1.png) no-repeat;
+    background-size: 12vw;
+}
+
+.bg-slide2 {
+    background: url(../images/Slide-map/slide2.png) no-repeat;
+    background-size: 12vw;
+}
+
+.bg-slide3 {
+    background: url(../images/Slide-map/slide3.png) no-repeat;
+    background-size: 12vw;
+}
+
+.bg-slide4 {
+    background: url(../images/Slide-map/slide4.png) no-repeat;
+    background-size: 12vw;
+}
+
+.bg-slide5 {
+    background: url(../images/Slide-map/slide5.png) no-repeat;
+    background-size: 12vw;
+}

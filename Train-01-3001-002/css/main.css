@@ -1,0 +1,177 @@
+.chart {
+    z-index: 1;
+    top: 32vh;
+    left: 10vw;
+    border-bottom: 0.1vh solid black;
+    border-left: 0.1vw solid black;
+    width: 41vw;
+    height: 34vh;
+
+}
+
+#subchart {
+    border-bottom: 0.1vh solid black;
+
+}
+
+.chart-info-col {
+    top: -6vh;
+    font-size: 1.34vw;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0vh) translateX(-2.5vw);
+
+}
+
+.chart-info-col * {
+    margin-top: 5.65vh ;
+
+}
+
+.chart-column {
+    width: 41vw;
+    bottom: 0;
+}
+
+.chart-column * {
+    width: 5vw;
+    margin-left: 2.6vw;
+    margin-bottom: -0.4vh;
+}
+
+progress {
+    writing-mode: vertical-lr;
+    transition: 0.5s ;
+    border: none;
+
+}
+
+progress::-webkit-progress-value {
+    background-image: linear-gradient(to bottom, rgb(86, 202, 196), rgb(50, 92, 50));
+    border-radius: 20px 20px 10px 10px;
+}
+
+progress {
+    position: relative;
+}
+progress::before {
+    content: attr(value) "%";
+    position: absolute;
+    left: 1.6vw;
+    color: white;
+    transform: rotate(-90deg);
+   
+}
+
+progress:nth-child(1)::before {
+    top: 45%;
+}
+progress:nth-child(2)::before {
+    top: 56%;
+}
+progress:nth-child(3)::before {
+    top: 70%;
+}
+progress:nth-child(4)::before {
+    top: 80%;
+}
+progress:nth-child(5)::before {
+    top: 52%;
+}
+
+progress::-webkit-progress-bar {
+    background: none;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.subchart {
+    top: 28.5vh;
+    height: 37.5vh;
+    border-bottom: 0.1vh solid black;
+    left: 54vw;
+    width: 16.7vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subchart progress::-webkit-progress-bar {
+    border: 1px solid rgb(12, 82, 12);
+    
+}
+
+.subchart *{
+    margin: 0 2vw;
+    width: 5vw;
+    bottom: 0;
+}
+
+.subchart .cols {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+}
+.subchart progress:nth-child(1)::before {
+    top: 70%;
+}
+
+.subchart progress:nth-child(2)::before {
+    top: 80%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5vw;
+    right: 4%;
+    top: 40%;
+    width: 20.8vw;
+    height: 23.4vh;
+    color: white;
+    background-image: url(../images/bg-green.png);
+    background-size: cover;
+    border-radius: 5.2vw;
+
+}
+
+.right span {
+    font-size: 1.6vw;
+    font-weight: 200;
+    text-align: center;
+}
+
+.lorem {
+    display: flex;
+    list-style: none;
+    width: 42vw;
+    top: 68%;
+    left: 12%;
+}
+
+.lorem * {
+    margin-right: 2.5vw;
+    font-weight: 600;
+}
+
+.title-col {
+    font-size: 1.5vw;
+    font-weight: 600;
+    top: 46%;
+    transform: rotate(-90deg);
+    left: -6%;
+    text-align: center;
+}
+
+.product-name {
+    top: 74%;
+    left: 30%;
+    font-weight: 600;
+}
+
+.title-heading {
+    font-size: 1.8vw;
+    font-weight: 600;
+    top: 22%;
+    left: 22%;
+    text-align: center;
+}

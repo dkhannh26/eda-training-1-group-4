@@ -1,0 +1,77 @@
+.content-img {
+    width: 38vw;
+    height: 57vh;
+    background: url(../images/body-img.png) no-repeat;
+    right: 14vw;
+    top: 15vh;
+    border-radius: 50%;
+    box-shadow: 0 0 20px;
+}
+
+.fisrt-bg-txt, .second-bg-txt {
+    background-size: cover;
+    background: url(../../Train-01-3001-003/images/txt-img.png) no-repeat;
+    width: 28vw;
+    height: 29vh;
+    /* opacity: 0; */
+    transition: 0.3s all;
+}
+
+.first-txt {
+    left: 14vw;
+    top: 15vh;
+    z-index: 1;
+
+}
+
+.first-info,.second-info {
+    top: 0.5vh;
+    right: 3.5vw;
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.second-txt {
+    left: 14vw;
+    top: 46vh;
+    z-index: 1;
+}
+
+.content-txt {
+    font-weight: 100;
+    top: 7vh;
+    margin: 0 3vw;
+  
+}
+
+.first-dropdown-txt, .second-dropdown-txt {
+    display: none;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-left: 4%;
+    width: 28vw;
+    height: 16vh;
+    font-weight: bold;
+    bottom: 2vh;
+    /* margin: 0 3vw; */
+}
+
+.line {
+    opacity: 0;
+}
+
+.line.show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.bg-txt.show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
