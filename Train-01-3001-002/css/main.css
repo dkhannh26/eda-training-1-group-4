@@ -34,6 +34,7 @@
 }
 
 .chart-column * {
+    height: 0;
     width: 5vw;
     margin-left: 2.6vw;
     margin-bottom: -0.4vh;
@@ -49,6 +50,8 @@ progress {
 progress::-webkit-progress-value {
     background-image: linear-gradient(to bottom, rgb(86, 202, 196), rgb(50, 92, 50));
     border-radius: 20px 20px 10px 10px;
+    transition: 0.5s all;
+
 }
 
 progress {
@@ -96,6 +99,7 @@ progress::-webkit-progress-bar {
 
 .subchart progress::-webkit-progress-bar {
     border: 1px solid rgb(12, 82, 12);
+    height: 500px;
     
 }
 

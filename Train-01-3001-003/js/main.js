@@ -40,12 +40,14 @@ firstDrop.addEventListener("touchend",
             console.log('click')
             firstBg.style.background = 'url(../../Train-01-3001-003/images/dropdown-txt-img.png) no-repeat'
             firstDropDown.style.display = 'flex'
-            firstIicon.innerHTML = 'x';
+            firstIicon.innerHTML = 'X';
+            firstIicon.style.right = '3.1vw';
             isShow = true
         } else {
             firstBg.style.background = 'url(../../Train-01-3001-003/images/txt-img.png) no-repeat'
             firstDropDown.style.display = 'none'
             firstIicon.innerHTML = 'i';
+            firstIicon.style.right = '3.5vw';
             isShow = false
 
         }
@@ -59,12 +61,14 @@ function changeBG() {
         console.log('click')
         secondBg.style.background= 'url(../../Train-01-3001-003/images/dropdown-txt-img.png) no-repeat'
         secondDropDown.style.display = 'flex'
-        secondIicon.innerHTML = 'x';
+        secondIicon.innerHTML = 'X';
+        secondIicon.style.right = '3.1vw';
         isShow = true
     } else {
         secondBg.style.background= 'url(../../Train-01-3001-003/images/txt-img.png) no-repeat'
         secondDropDown.style.display = 'none'
         secondIicon.innerHTML = 'i';
+        secondIicon.style.right = '3.5vw';
         isShow = false
 
     }
