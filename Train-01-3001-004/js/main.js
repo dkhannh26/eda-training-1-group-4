@@ -15,11 +15,16 @@ $(document).ready(function () {
         }
     });
 
+    const colBars = document.querySelectorAll('.chart-wrapper__bar-col') 
     // animation here
     setTimeout(() => {
         $(".line").addClass('show');
+        colBars.forEach(element => {
+            element.classList.add('visible');
+        });
     }, 500);
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const chartCols = document.querySelectorAll('.chart-wrapper__bar-col');

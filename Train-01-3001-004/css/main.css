@@ -65,6 +65,13 @@
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
+    transition: 0.5s all;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.visible {
+    transform: scaleY(1);
 }
 
 .chart-wrapper__bar-col--left {

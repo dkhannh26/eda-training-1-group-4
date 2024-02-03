@@ -19,5 +19,6 @@ $(document).ready(function () {
     // animation here
     setTimeout(() => { 
         $(".line").addClass('show');
+        $("#main-container").addClass('show');
     },500);
 });
